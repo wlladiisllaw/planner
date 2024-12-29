@@ -58,7 +58,7 @@ export function Auth() {
                  placeholder='Enter password:'
                  type='password'
                  extra='mb-6'
-                 {...register('email', {required: 'Password is required!'})}
+                 {...register('password', {required: 'Password is required!'})}
                  />
                    
                 

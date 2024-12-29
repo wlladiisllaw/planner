@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 
 import { NO_INDEX_PAGE } from '@/constants/seo.constants'
+import { Heading } from '@/components/ui/Heading'
+import { Statistics } from './Statistics'
 
 
 export const metadata: Metadata = {
@@ -11,7 +13,8 @@ export const metadata: Metadata = {
 export default function DashboardPage() {
 	return (
 		<div>
-			Dashboard
+			<Heading title='Statistics'></Heading>
+			<Statistics></Statistics>
 		</div>
 	)
 }
