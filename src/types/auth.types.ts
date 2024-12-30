@@ -8,8 +8,8 @@ export interface IUser {
     name?: string,
     email: string
 
-    workInteval?: number,
-    breakInteval?: number,
+    workInterval?: number,
+    breakInterval?: number,
     intervalsCount?: number
 }
 
