@@ -1,3 +1,4 @@
+//работать с куками
 import Cookies from 'js-cookie'
 
 export enum EnumTokens {
